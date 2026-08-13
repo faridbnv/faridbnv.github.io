@@ -1,0 +1,21 @@
+# Local system and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local preview and generated build artifacts
+node_modules/
+.vinext/
+.next/
+.wrangler/
+.vite/
+dist/
+coverage/
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+
+# Logs
+*.log

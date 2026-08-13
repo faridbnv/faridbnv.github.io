@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://faridbnv.github.io/sitemap.xml
