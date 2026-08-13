@@ -26,3 +26,14 @@ test("all in-page navigation targets exist", () => {
 test("does not expose common sensitive placeholders", () => {
   assert.doesNotMatch(html, /customer name|salary|compensation|revenue|confidential value/i);
 });
+
+test("uses LinkedIn as the professional profile destination", () => {
+  assert.match(html, /https:\/\/www\.linkedin\.com\/in\/faridhb\//);
+  assert.doesNotMatch(html, /github\.com\/faridbnv/);
+});
+
+test("includes NDA-safe technical imagery", () => {
+  assert.match(html, /assets\/work-automation\.jpg/);
+  assert.match(html, /assets\/work-composites\.jpg/);
+  assert.match(html, /assets\/work-materials\.jpg/);
+});

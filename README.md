@@ -23,7 +23,7 @@ In the repository settings, open **Pages**, choose **Deploy from a branch**, the
 ## Before public launch
 
 - Confirm the professional positioning and experience wording.
-- Add the preferred LinkedIn URL and professional email.
+- Confirm the preferred professional email before adding it.
 - Replace capability summaries with reviewed, anonymized case studies.
 - Use only visuals that are owned, licensed, or safely recreated.
 - Remove customer names, proprietary geometry, confidential values, contract details, internal metrics, and non-public commercial information.
