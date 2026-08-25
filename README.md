@@ -4,7 +4,13 @@ A minimal, static technical portfolio built for GitHub Pages.
 
 ## Why one page
 
-The first version keeps Farid's positioning, expertise, representative work, approach, background, and contact path in one focused narrative. Individual case-study pages can be added when reviewed, anonymized material is ready.
+The first version keeps Farid's positioning, expertise, representative impact, approach, background, and contact path in one focused narrative. Individual case-study pages can be added when reviewed, anonymized material is ready.
+
+## Content model
+
+The résumé is the factual baseline for role titles, dates, employers, education, technical skills, and public professional evidence. The website adds what a one-page résumé cannot: a clearer career narrative, capability stories, working approach, customer-engineering lifecycle, and visual proof of technical focus.
+
+The public site intentionally does not host the résumé or expose customer identities, proprietary geometry, confidential results, internal metrics, or private contact details.
 
 ## Preview locally
 
