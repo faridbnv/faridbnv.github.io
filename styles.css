@@ -940,11 +940,21 @@ h1 em {
 .footer-inner a.quiet-link {
   display: inline-flex;
   align-items: center;
-  opacity: 0.35;
+  opacity: 0.5;
   transition: opacity 200ms ease;
 }
 .footer-inner a.quiet-link:hover,
 .footer-inner a.quiet-link:focus-visible { opacity: 1; }
+
+.site-nav a.quiet-link {
+  display: inline-flex;
+  align-items: center;
+  opacity: 0.5;
+  transition: opacity 200ms ease;
+}
+.site-nav a.quiet-link::after { display: none; }
+.site-nav a.quiet-link:hover,
+.site-nav a.quiet-link:focus-visible { opacity: 1; }
 
 .footer-links {
   display: flex;

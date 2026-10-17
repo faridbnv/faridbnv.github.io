@@ -66,7 +66,7 @@ test("includes NDA-safe technical imagery", () => {
 
 test("links to the H2C materials page with a small unlabelled icon", () => {
   const links = html.match(/<a [^>]*href="\/h2c-materials\/"[^>]*>[\s\S]*?<\/a>/g) ?? [];
-  assert.equal(links.length, 1);
+  assert.equal(links.length, 2, "header and footer");
   assert.match(links[0], /class="quiet-link"/);
   assert.match(links[0], /aria-label="H2C materials"/);
   assert.match(links[0], /<svg\b/);
