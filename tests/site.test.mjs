@@ -63,3 +63,12 @@ test("includes NDA-safe technical imagery", () => {
   assert.match(html, /assets\/work-composites\.jpg/);
   assert.match(html, /assets\/work-materials\.jpg/);
 });
+
+test("keeps the H2C materials link quiet: no styling, not in nav or tab order", () => {
+  const links = html.match(/<a [^>]*href="\/h2c-materials\/"[^>]*>[^<]*<\/a>/g) ?? [];
+  assert.equal(links.length, 1);
+  assert.match(links[0], /class="quiet-link"/);
+  assert.match(links[0], /tabindex="-1"/);
+  assert.match(links[0], /rel="nofollow"/);
+  assert.match(links[0], />·<\/a>/);
+});

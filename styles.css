@@ -937,6 +937,7 @@ h1 em {
 
 .footer-inner p { margin: 0; }
 .footer-inner a { color: var(--white); font-weight: 700; }
+.footer-inner a.quiet-link { color: inherit; font-weight: inherit; text-decoration: none; cursor: text; }
 
 .footer-links {
   display: flex;
