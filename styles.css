@@ -940,7 +940,8 @@ h1 em {
 .footer-inner a.quiet-link {
   display: inline-flex;
   align-items: center;
-  opacity: 0.5;
+  color: var(--teal-bright);
+  opacity: 0.9;
   transition: opacity 200ms ease;
 }
 .footer-inner a.quiet-link:hover,
@@ -949,7 +950,8 @@ h1 em {
 .site-nav a.quiet-link {
   display: inline-flex;
   align-items: center;
-  opacity: 0.5;
+  color: var(--teal);
+  opacity: 0.9;
   transition: opacity 200ms ease;
 }
 .site-nav a.quiet-link::after { display: none; }
